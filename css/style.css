@@ -1,0 +1,57 @@
+body{
+    overflow: hidden;
+
+}
+/* header and top menu bar */
+
+header{
+    padding: 30px 0px 20px 0px;
+    background-color: #60DFE6;
+    
+}
+header .logo{
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 41px;
+    
+}
+
+header nav ul{
+    margin-top: 50px;
+    float: right;
+    margin-right: 50px;
+}
+
+header nav ul li{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    
+}
+
+header nav ul li a{
+display: block;
+text-decoration: none;
+font-family:  sans-serif;
+font-size: 12px;
+font-weight: 600;
+color: #443f3f;
+line-height: 15.73px;
+
+}
+
+header nav ul li a:hover{
+    color: white;
+}
+
+header .fa-solid{
+    font-size: 30px;
+    
+}
+
+.fa-solid{
+    margin-top: -10px;
+    /* margin-right: 10px; */
+}
