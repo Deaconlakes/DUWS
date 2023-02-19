@@ -1,5 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    /* overflow: hidden; */
+    margin: 0px;
     /* background-color: #1e1e1e; */
     margin: 0px;
     padding: 0px;
@@ -103,5 +107,137 @@ header .fa-solid{
 }
 
 .gallery img{
-    height: 300%;
+    
 }
+
+
+/* section c */
+
+.section-c{
+    margin-top: 200px;
+}
+
+.section-c .grid-container{
+    margin-right: -60px;
+}
+
+.news-letter{
+    padding: 20px;
+    
+}
+
+.news-letter h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.news-letter hr{
+    width: 50%;
+    margin-left: 0px;
+    border: 1px solid #60DFE6;
+
+}
+
+.section-c .grid-50{
+    border: 2px solid #60DFE6;
+    height: 250px;
+    padding: 40px;
+    background-color: #ecf0f0;
+}
+
+input[type=email]{
+    border: none;
+    border-bottom: 2px solid #60DFE6;
+    background-color: #ecf0f0;
+}
+
+.email a{
+    padding: 10px 50px;
+    background-color: #60DFE6;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.email a:hover{
+    background-color: #19868c;
+}
+
+
+/* section d */
+
+section.section-d{
+    margin-top: 200px;
+    padding: 50px 0px 100px 0px;
+    position: relative;
+}
+
+section.section-d .grid-container{
+    margin-right: -50px;
+}
+
+section.section-d .grid-30{
+    margin-left: 50px;
+}
+
+section.section-d .about-pic{
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+section.section-d .about-quo{
+    position: absolute;
+    top: 200px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+ section.section-d .about-quo h1{
+    text-transform: capitalize;
+    font-family: serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 25px;
+    line-height: 90px;
+        
+}
+
+section.section-d .statement p{
+    font-size: 22px;
+    line-height: 35px;
+}
+
+footer {
+    /* background-image: linear-gradient(to bottom, #0c0c0c, #121111); */
+    padding: 70px 0px 140px 0px;
+    background-image: url(../assess/img10.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    color: #0000;
+    background-color: #0000;
+    
+}
+
+footer::before{
+    content: ' ';
+    background-image: url(../assess/img10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+
+}
+
+
+
+
