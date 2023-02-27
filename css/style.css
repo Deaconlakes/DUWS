@@ -245,6 +245,7 @@ footer .duws{
 
 footer .grid-40{
     margin-top: 100px;
+    
 }
 
 table {
@@ -278,7 +279,7 @@ table {
     padding: 20px;
   }
 
-  footer .social-icon span a:hover{
+  footer span a:hover{
     color: blue;
   }
 

@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color: #1e1e1e; */
+    margin: 0px;
+    padding: 0px;
+    height: 1000px;
+    /* overflow: hidden; */
+
+}
+
+
+/* header and top menu bar */
+
+header{
+    padding: 30px 0px 20px 0px;
+    background-color: #60DFE6;
+    
+}
+header .logo{
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 90px;
+    
+}
+
+header nav ul{
+    margin-top: 50px;
+    float: right;
+    margin-right: 90px;
+}
+
+header nav ul li{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    
+}
+
+header nav ul li a{
+display: block;
+text-decoration: none;
+font-family:  sans-serif;
+font-size: 12px;
+font-weight: 600;
+color: #443f3f;
+line-height: 15.73px;
+
+}
+
+header nav ul li a:hover{
+    color: white;
+}
+
+
+/* style account section-a */
+
+.acct-section-a .grid-container {
+    margin-top: 250px;
+}
+
+.display-pic{
+    margin-left: -85px;
+}
+
+/* .acct-section-a .forms{
+    margin-right: -15px;
+} */
+
+
+.acct-section-a .heading{
+    margin-top: 80px;
+    
+}
+
+
+.heading h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #60DFE6;
+    font-family: "Inter", sans-serif;
+    line-height: 54px;
+}
+
+.heading hr{
+    width: 18%;
+    margin-left: 0px;
+    border: 1px solid #60DFE6;
+
+}
+
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #D9D9D9;
+;
+}
+
+input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #D9D9D9;
+}
+
+.login-area button{
+    background-color: #60DFE6;
+    padding: 15px 40px;
+    width: 577px;
+    border: none;
+}
+
+.links a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: black;
+    /* font-weight: 700; */
+    line-height: 15px;
+    
+}
+
+.links span{
+    margin-left: 150px;
+}
+
+
+/* account - footer */
+
+
+footer {
+    background-color: black;
+    height: 400px;
+    color:#60DFE6;
+    position: relative;
+    margin-top: 150px;
+    
+
+    
+}
+
+footer::before{
+    content:' ';
+    background-image: url("../assess/img11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.10;
+}
+
+
+footer .duws{
+    margin-top: 150px;
+}
+
+footer .grid-40{
+    margin-top: 100px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+  th {
+    color: #ecf0f0;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  td{
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  footer .social-icon{
+    margin-top: 360px;
+  }
+
+  footer .social-icon span a{
+    padding: 20px;
+  }
+
+  footer span a:hover{
+    color: blue;
+  }
+
+
+  footer .social-icon .fa-brands{
+    color: #60DFE6;
+  }
+
