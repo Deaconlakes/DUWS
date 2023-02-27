@@ -3,11 +3,11 @@
     padding: 0px;
 }
 body{
-    margin: 0px;
     /* background-color: #1e1e1e; */
     margin: 0px;
     padding: 0px;
     height: 2000px;
+    /* overflow: hidden; */
 
 }
 
@@ -210,22 +210,23 @@ section.section-d .statement p{
     line-height: 35px;
 }
 
+
+
+/* footer */
+
 footer {
-    /* background-image: linear-gradient(to bottom, #0c0c0c, #121111); */
-    padding: 70px 0px 140px 0px;
-    background-image: url(../assess/img10.jpg);
-    background-repeat: no-repeat;
-    opacity: 0.25;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
-    color: #0000;
-    background-color: #0000;
+    background-color: black;
+    height: 400px;
+    color:#60DFE6;
+    position: relative;
+    
+
     
 }
 
 footer::before{
-    content: ' ';
-    background-image: url(../assess/img10.jpg);
+    content:' ';
+    background-image: url("../assess/img11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -234,9 +235,59 @@ footer::before{
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 1;
-
+    opacity: 0.10;
 }
+
+
+footer .duws{
+    margin-top: 150px;
+}
+
+footer .grid-40{
+    margin-top: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+
+  th {
+    color: #ecf0f0;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    
+  }
+  
+  td{
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  footer .social-icon{
+    margin-top: 360px;
+  }
+
+  footer .social-icon span a{
+    padding: 20px;
+  }
+
+  footer .social-icon span a:hover{
+    color: blue;
+  }
+
+
+  footer .social-icon .fa-brands{
+    color: #60DFE6;
+  }
+
+
 
 
 
